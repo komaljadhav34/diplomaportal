@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <TITLE>User Information</TITLE>
+    <style>
+        TH,
+        TD {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+            background-color: lavender;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</HEAD>
+
+<BODY>
+    <TABLE>
+        <H1>USER DETAILS</H1>
+        <FORM action="/action_page.php">
+            <TR>
+                <TD><LABEL for="fullname">Full Name:</LABEL></TD>
+                <TD><INPUT type="text" id="fullname" name="fullname"></TD>
+            </TR>
+            <TR>
+                <TD><LABEL for="college">College:</LABEL></TD>
+                <TD><INPUT type="text" id="college" name="college"></TD>
+            </TR>
+            <TR>
+                <TD><LABEL for="email">Email:</LABEL></TD>
+                <TD><INPUT type="email" id="email" name="email"></TD>
+            </TR>
+            <TR>
+                <TD><LABEL for="address">Address:</LABEL></TD>
+                <TD><INPUT type="text" id="address" name="address"></TD>
+            </TR>
+            <TR>
+                <TD><LABEL for="phone">Phone No:</LABEL></TD>
+                <TD><INPUT type="tel" id="phone" name="phone"></TD>
+            </TR>
+            <TR>
+                <TD><LABEL for="gender">Gender:</LABEL></TD>
+                <TD>
+                    <INPUT type="radio" id="male" name="gender" value="male">
+                    <LABEL for="male">Male</LABEL><BR>
+                    <INPUT type="radio" id="female" name="gender" value="female">
+                    <LABEL for="female">Female</LABEL><BR>
+                    <INPUT type="radio" id="other" name="gender" value="other">
+                    <LABEL for="other">Other</LABEL><BR>
+                </TD>
+            </TR>
+            <TR>
+                <TD><LABEL for="hobbies">Hobbies:</LABEL></TD>
+                <TD><INPUT type="text" id="hobbies" name="hobbies"></TD>
+            </TR>
+            <TR>
+                <TD><INPUT type="reset"></TD>
+                <TD><INPUT type="submit" value="Submit"></TD>
+            </TR>
+        </FORM>
+    </TABLE>
+</BODY>
+</HTML>
